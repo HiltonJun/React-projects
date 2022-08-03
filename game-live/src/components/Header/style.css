@@ -1,0 +1,53 @@
+header {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    height: 11rem;
+    display: flex;
+    align-items: center;
+    background:
+        linear-gradient(rgb(18, 11, 66), transparent),
+        linear-gradient(to top left, rgb(90, 12, 130), transparent),
+        linear-gradient(to top right, rgb(14, 80, 193), transparent);
+    background-blend-mode: screen;
+    border-radius: 0 0 10px 10px;
+}
+
+.nav-logo {
+    flex-grow: 1;
+    height: 10rem;
+    max-width: 10rem;
+    margin-left: 2rem;
+}
+
+.nav-btns {
+    flex-grow: 1;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-btns > h2 {
+    margin: 1rem;
+}
+
+.nav-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 2rem 0 0 2rem;
+    padding: 0.5rem;
+}
+.nav-profile #nav-logout {
+    width: 2rem;
+    margin-right: 1rem;
+}
+
+.nav-profile #nav-avatar {
+    width: 3rem;
+    border-radius: 2rem;
+    border: 3px solid gray;
+    margin-right: 3rem;
+}
